@@ -1,0 +1,25 @@
+llm:
+  model: openai/gpt-oss-120b:free
+  temperature: 0.1
+  max_tokens: 1024
+
+embedding:
+  model: all-MiniLM-L6-v2
+  dim: 384
+
+chunking:
+  chunk_size: 800
+  chunk_overlap: 150
+  separators:
+    - "\n\n"
+    - "\n"
+    - ". "
+    - " "
+    - ""
+
+retrieval:
+  top_k: 5
+  max_hops: 3
+
+data:
+  documents_dir: data

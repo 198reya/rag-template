@@ -1,0 +1,28 @@
+EOF
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.so
+.Python
+.env
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Project specific
+data/          # if you don't want to commit your documents
+*.log
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+EOF
